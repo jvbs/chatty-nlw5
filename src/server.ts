@@ -2,6 +2,8 @@ import express, { response } from 'express'
 
 const app = express()
 
+import "./database"
+
 /**
  * GET - Buscas
  * POST - Criação
